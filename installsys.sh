@@ -1,28 +1,17 @@
 #!/bin/sh
 
-# Update local distro
-sudo apt-get check
-sudo apt-get update
-sudo apt-get dist-upgrade
+echo '## INSTALLSYS: START'
+
+# Upgrade local distribution
+./upgradesys.sh
 
 # Install editors, shells and all sorts of auxilliary packages
 ./installaux.sh
 
-# Install git
-./installgit.sh
-
 # Install programming languages
 ./installlang.sh
 
-# Install Tex
-./installtex.sh
+# Cleanup local distribution
+./cleanupsys.sh
 
-# Cleanup
-sudo apt-get autoremove
-sudo apt-get autoclean
-
-# Setup git
-./setupgit.sh
-
-# Setup Zsh
-./setupzsh.sh
+echo '## INSTALLSYS: END'
