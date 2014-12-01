@@ -1,20 +1,23 @@
 #!/bin/sh
 
-# Install programming language distributions
+echo '### INSTALLLANG: START'
+
 # C/C++
-apt-get -y install gcc g++
+sudo apt-get -qy install gcc g++
 
 # OCaml and SML/NJ
-apt-get -y install ocaml smlnj
+sudo pt-get -qy install ocaml smlnj
 
 # Haskell (the whole shebang)
-apt-get -y install haskell-platform
+sudo apt-get -qy install haskell-platform
 
 # Erlang (plus vim plugin)
-#apt-get -y install erlang
+sudo apt-get -qy install erlang
 
 # Python2 and Python3
-apt-get -y install python2 python3
+sudo apt-get -qy install python2 python3
 
 # NVIdia CUDA
-#apt-get -y install nvidia-cuda-toolkit
+sudo apt-get -qy install nvidia-cuda-toolkit
+
+echo '### INSTALLLANG: END'
