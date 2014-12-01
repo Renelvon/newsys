@@ -13,6 +13,9 @@ sudo apt-get -qy install zsh
 # The one and only one editor
 sudo apt-get -qy install vim
 
+# An easy grepping tool
+sudo apt-get -qy install ack-grep
+
 # diff with minimal GUI
 sudo apt-get -qy install meld
 
