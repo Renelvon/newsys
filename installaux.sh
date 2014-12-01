@@ -2,46 +2,49 @@
 
 # Install browsers, editors, shells and auxilliary packages
 # Get basic Git support
-apt-get -y install git-core
+sudo apt-get -qy install git-core
 
-# For media experience
-apt-get -y curl
+# For downloading files
+sudo apt-get -qy curl
 
 # The one and only term emulator 
-apt-get -y install zsh
+sudo apt-get -qy install zsh
 
 # The one and only one editor
-#apt-get -y install vim
+sudo apt-get -qy install vim
 
 # diff with minimal GUI
-apt-get -y install meld
+sudo apt-get -qy install meld
 
 # For covering our tracks...
-apt-get -y install bleachbit 
+sudo apt-get -qy install bleachbit
 
 # For saving videos
-apt-get -y install youtube-dl
+sudo apt-get -qy install youtube-dl
 
 # Microsoft fonts
-apt-get -y install ttf-mscorefonts-installer
+sudo apt-get -qy install ttf-mscorefonts-installer
 
 # For old interpreters
-apt-get -y install rlwrap
+sudo apt-get -qy install rlwrap
 
 # For system performance overview
-apt-get -y htop
+sudo apt-get -qy htop
 
 # For GPG-level security
-apt-get -y gnupg2
+sudo apt-get -qy gnupg2
 
 # For talking with privacy
-apt-get -y pidgin pidgin-otr
+sudo apt-get -qy pidgin pidgin-otr
 
 # For emailing with privacy
-apt-get -y enigmail
+sudo apt-get -qy enigmail
 
-# For file-shairing
-apt-get -y nemo-dropbox
+# For file-sharing
+sudo apt-get -qy nemo-dropbox
 
 # For media experience
-apt-get -y vlc
+sudo apt-get -qy vlc
+
+# For games
+sudo apt-get -qy steam-launcher
