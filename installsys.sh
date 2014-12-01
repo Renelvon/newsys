@@ -11,6 +11,9 @@ echo '## INSTALLSYS: START'
 # Install programming languages
 ./installlang.sh
 
+# Install LaTeX
+./installtex.sh
+
 # Cleanup local distribution
 ./cleanupsys.sh
 
