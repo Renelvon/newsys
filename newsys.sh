@@ -1,6 +1,9 @@
 #!/bin/sh
 
-echo '# NEWYSYS INSTALL: START #'
+echo '# NEWYSYS: START'
+
+echo '# NEWSYS: INSTALLING SUDO'
+su -c "apt-get -y install sudo" -
 
 # Install software
 ./installsys.sh
@@ -8,4 +11,4 @@ echo '# NEWYSYS INSTALL: START #'
 # Configure system
 ./setupsys.sh
 
-echo '# NEWYSYS INSTALL: END #'
+echo '# NEWYSYS: END'
