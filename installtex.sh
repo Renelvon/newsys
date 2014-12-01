@@ -1,8 +1,11 @@
 #!/bin/sh
 
-# Install TeX and friends
+echo '### INSTALLTEX: START'
+
 # Get support for pygments library
-apt-get -y install python-pygments
+sudo apt-get -qy install python-pygments
 
 # Get all of LaTeX
-apt-get -y install texlive-full
+sudo apt-get -qy install texlive-full
+
+echo '### INSTALLTEX: START'
