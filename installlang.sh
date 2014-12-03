@@ -20,4 +20,7 @@ sudo apt-get -qy install python2 python3
 # NVIdia CUDA
 sudo apt-get -qy install nvidia-cuda-toolkit
 
+# R statitics toolbox
+sudo apt-get -qy install r-base
+
 echo '### INSTALLLANG: END'
