@@ -6,7 +6,7 @@ echo '### INSTALLLANG: START'
 sudo apt-get -qy install gcc g++
 
 # OCaml and SML/NJ
-sudo pt-get -qy install ocaml smlnj
+sudo apt-get -qy install ocaml smlnj
 
 # Haskell (the whole shebang)
 sudo apt-get -qy install haskell-platform
