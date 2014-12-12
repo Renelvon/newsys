@@ -15,7 +15,7 @@ sudo apt-get -qy install haskell-platform
 sudo apt-get -qy install erlang
 
 # Python2 and Python3
-sudo apt-get -qy install python2 python3
+sudo apt-get -qy install python2.7 python3
 
 # NVIdia CUDA
 sudo apt-get -qy install nvidia-cuda-toolkit
