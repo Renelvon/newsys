@@ -12,7 +12,7 @@ echo '## SETUPSYS: START'
 ./setupgit.sh
 
 # Setup Bash
-./setupzsh.sh
+./setupbash.sh
 
 # Setup Zsh
 ./setupzsh.sh
