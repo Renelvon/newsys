@@ -2,6 +2,9 @@
 
 echo '## SETUPSYS: START'
 
+# Setup ssh
+./setupssh.sh
+
 # Setup vim
 ./setupvim.sh
 
