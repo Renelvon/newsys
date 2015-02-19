@@ -24,3 +24,6 @@ git config --global push.default simple
 
 # Set meld as mergetool
 git config --global merge.tool "meld"
+
+# Enable rerere
+git config --global rerere.enabled true
